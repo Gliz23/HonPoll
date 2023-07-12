@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/dashboard"
     android:orientation="vertical"
-    android:overScrollMode="ifContentScrolls">
+    android:overScrollMode="ifContentScrolls"
+    android:background="@drawable/cbg">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,11 +19,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SRC polls"
-            android:textSize="24sp"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:textStyle="bold"
             android:gravity="center"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="362dp"
-                android:layout_height="100dp"
+                android:layout_height="50dp"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginVertical="30dp"
                 app:cardElevation="5dp"
@@ -41,36 +44,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/candidate_name_president"
+                    android:text="President"
                     android:textSize="20sp" />
             </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="362dp"
-            android:layout_height="100dp"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginVertical="30dp"
-            app:cardElevation="5dp"
-            app:cardCornerRadius="20dp"
-            android:id="@+id/president0"
-            style="@style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="left"
-                android:gravity="center"
-                android:src="@mipmap/ic_abayi"
-                android:textSize="36sp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="@string/candidate_name_president"
-                android:textSize="20sp"></TextView>
-        </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="362dp"
-            android:layout_height="100dp"
+            android:layout_height="50dp"
             android:layout_marginHorizontal="20dp"
             android:layout_marginVertical="30dp"
             app:cardElevation="5dp"
@@ -89,18 +70,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/candidate_name_president"
+                android:text="Vice-President"
                 android:textSize="20sp" />
+
+
         </androidx.cardview.widget.CardView>
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Departmental polls"
-            android:textSize="24sp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#000"
             android:gravity="center"/>
         <androidx.cardview.widget.CardView
             android:layout_width="362dp"
-            android:layout_height="100dp"
+            android:layout_height="50dp"
             android:layout_marginHorizontal="20dp"
             android:layout_marginVertical="30dp"
             app:cardElevation="5dp"
@@ -119,12 +106,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/candidate_name_president"
+                android:text="President"
                 android:textSize="20sp" />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="362dp"
-            android:layout_height="100dp"
+            android:layout_height="50dp"
             android:layout_marginHorizontal="20dp"
             android:layout_marginVertical="30dp"
             app:cardElevation="5dp"
@@ -143,42 +130,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/candidate_name_president"
+                android:text="Vice-President"
                 android:textSize="20sp" />
         </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-        android:layout_width="362dp"
-        android:layout_height="100dp"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginVertical="30dp"
-        app:cardElevation="5dp"
-        app:cardCornerRadius="20dp"
-        android:id="@+id/president3"
-        style="@style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:gravity="center"
-            android:src="@mipmap/ic_abayi"
-            android:textSize="36sp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="@string/candidate_name_president"
-            android:textSize="20sp" />
-    </androidx.cardview.widget.CardView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hall polls"
-            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#000"
             android:gravity="center"/>
         <androidx.cardview.widget.CardView
         android:layout_width="362dp"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginVertical="30dp"
         app:cardElevation="5dp"
@@ -197,12 +163,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="@string/candidate_name_president"
+            android:text="President"
             android:textSize="20sp" />
     </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="362dp"
-            android:layout_height="100dp"
+            android:layout_height="50dp"
             android:layout_marginHorizontal="20dp"
             android:layout_marginVertical="30dp"
             app:cardElevation="5dp"
@@ -221,32 +187,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/candidate_name_president"
+                android:text="Vice-President"
                 android:textSize="20sp" />
         </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="362dp"
-            android:layout_height="100dp"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginVertical="30dp"
-            app:cardElevation="5dp"
-            app:cardCornerRadius="20dp"
-            android:id="@+id/president42"
-            style="@style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="left"
-                android:gravity="center"
-                android:src="@mipmap/ic_abayi"
-                android:textSize="36sp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="@string/candidate_name_president"
-                android:textSize="20sp" />
-        </androidx.cardview.widget.CardView>
     </LinearLayout>
 </ScrollView>

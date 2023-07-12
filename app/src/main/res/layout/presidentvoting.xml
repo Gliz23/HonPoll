@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00FFFF"
     android:orientation="vertical">
 
     <TextView
@@ -53,7 +52,8 @@
                     android:layout_height="wrap_content"
                     android:text="Candidate Name"
                     android:textSize="20dp"
-                    android:gravity="center_horizontal">
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/bg2">
                 </TextView>
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.cardview.widget.CardView>

@@ -6,21 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
     android:orientation="vertical"
-    android:id="@+id/home_parent">
+    android:id="@+id/home_parent"
+    android:layout_marginVertical="20dp"
+    android:background="@drawable/bg4">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="@string/available_polls1"
-        android:textSize="26sp"
+        android:textSize="35sp"
         android:textAlignment="center"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFFFF"
+        android:textStyle="bold">
     </TextView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="362dp"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginVertical="30dp"
+        android:layout_marginVertical="10dp"
         app:cardBackgroundColor="#A7FFEB"
         app:cardCornerRadius="20dp"
         app:cardElevation="5dp"
@@ -32,6 +36,7 @@
                 android:text="SRC"
                 android:gravity="center"
                 android:textSize="36sp"
+                android:textStyle="bold"
                 />
     </androidx.cardview.widget.CardView>
 
@@ -39,9 +44,9 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="362dp"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginVertical="30dp"
+        android:layout_marginVertical="0dp"
         app:cardBackgroundColor="#B9F6CA"
         app:cardCornerRadius="20dp"
         app:cardElevation="5dp"
@@ -55,14 +60,15 @@
         android:text="Department"
         android:gravity="center"
         android:textSize="36dp"
+        android:textStyle="bold"
         />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="362dp"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginVertical="30dp"
+        android:layout_marginVertical="10dp"
         app:cardBackgroundColor="#CCFF90"
         app:cardCornerRadius="20dp"
         app:cardElevation="5dp"
@@ -76,7 +82,8 @@
             android:layout_height="match_parent"
             android:text="Hall"
             android:gravity="center"
-            android:textSize="36dp" />
+            android:textSize="36dp"
+            android:textStyle="bold"/>
     </androidx.cardview.widget.CardView>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

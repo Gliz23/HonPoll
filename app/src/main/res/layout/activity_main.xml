@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="?attr/actionBarSize"
     tools:ignore="ExtraText"
-    android:background="@drawable/bgi">
+    android:background="@drawable/bg4">
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
